@@ -1,4 +1,68 @@
-#include <iostream> //directiva de procesamiento (obligarorio)
+#include <iostream>
+
+int main(){
+   
+
+    std::cout << "Seleccione una opcion";
+    int option;
+    std::cin >> option;
+
+    switch (option)
+    {
+    case 1:
+            
+        break;
+    case 2:
+        /* code */
+        break;    
+    default:
+        break;
+    }
+
+
+
+
+
+
+
+
+
+
+   
+   /* int x = 100;
+    double result = 2.5*x;
+    bool isBigger = x > 5;
+    float sum =x + 3 * 2;
+
+    std::cout << "Variable x: " << x << std::endl;
+    std::cout << "The result of " << x << " * 2.5 is: " << result << std::endl;
+    std::cout << "Is " << x << " > 5:? " << isBigger << std::endl;
+    std::cout << "The Sum of " << x << " + 3 * 2 is: " << sum <<std::endl;
+
+
+    std::cout<<std::endl;
+    std::cout<<"operadores logicos"<<std::endl;
+    bool c = true, e=false;
+    bool AND=c&&e;
+    bool OR=c||e;
+    bool NOT=!c;
+    bool NAND=!AND;
+    bool NOR=!OR;
+    bool XOR=((!c)&&e)||(c&&(!e));
+
+    */
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+/*#include <iostream> //directiva de procesamiento (obligarorio)
 #define PI 3.14159
 using namespace std;   //No repetir std en cada variable verde
 int variable = 3.5;
@@ -39,7 +103,7 @@ int main(int argc, char* argv[]){  //Los atributos del main no son obligatorios
 
 
 
-/*
+
 #include <iostream>
 #define PI 3.14159265359
 #ifdef DEBUG
