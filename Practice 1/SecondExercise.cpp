@@ -3,7 +3,7 @@
 using namespace std;
 
 int arra[0]={};
-void sort(int[], int);
+void SortBubble(int[], int);
 
 int main(){
 
@@ -18,13 +18,27 @@ int main(){
         cin >> arra[i];
     }
 
+    SortBubble(arra, size);
+
+    cout << "Sorted array ";
+    for(int i = 0; i<size; i++){
+        cout  << arra[i] << ", " ;
+    }
     return 0;
 }
 
-void sort(int arra[], int size){
+void SortBubble(int arra[], int size){
     int temp;
 
-    for(int j=size; j>0; j++){
-        
+    for(int i=0; i < size -1; ++i){
+        for(int j = 0; j < size - i -1; ++j){
+
+            if(arra[j] > arra[j+1]){
+
+                temp = arra[j];
+                arra[j] = arra[j+1];
+                arra[j+1] = temp;
+            }
+        }
     }
 }

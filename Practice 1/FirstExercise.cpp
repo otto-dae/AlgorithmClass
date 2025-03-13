@@ -13,7 +13,6 @@ int main() {
     int cantidad = contar (num);
 
     cout << "El número " << num << " tiene " <<cantidad << " numeros "<<endl;
-    cout << "El número " << num << " tiene " <<cantidad << " numeros "<<endl;
 
     return 0;
 }
